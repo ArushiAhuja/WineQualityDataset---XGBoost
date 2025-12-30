@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from google.colab import files
 uploaded = files.upload()
 
-df = pd.read_excel('wine.xlsx')
+df = pd.read_excel('data_sample.xlsx')
 #displaying the first 5 rows of the dataset 
 df.head()
 
