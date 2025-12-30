@@ -7,13 +7,8 @@ First, we need to install XGBoost and import the necessary libraries. we typical
 # Install XGBoost (usually already installed in Colab, but good practice)
 !pip install xgboost
 
-# Import necessary libraries
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-import matplotlib.pyplot as plt
-import seaborn as sns
+# Install necessary libraries
+!pip install pandas numpy sklearn matplotlib seaborn
+
 
 
